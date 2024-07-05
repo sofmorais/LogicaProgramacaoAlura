@@ -45,10 +45,11 @@ body {
     justify-content: space-between;
     flex-direction: column;
     gap: 40px;
-    border-color: #22D4FD;
+    align-items: center;
 }
 
 .social-links-link {
+    border: 1.5px solid #22D4FD;
     width: 280px;
     text-align: center;
     border-radius: 16px;
