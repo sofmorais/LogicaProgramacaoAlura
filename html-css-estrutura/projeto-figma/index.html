@@ -4,23 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a href="" class="cabecalho-menu-link">Home</a>
+            <a href="about.html" class="cabecalho-menu-link">Sobre mim</a>
+            <a href="cv.html" class="cabecalho-menu-link">Currículo</a>
+        </nav>
+        </section>
+    </header>
     <main class="apresentacao">
-        <section class="section-apresentacao">
-            <h1 class="titulo-apresentacao">Eleve seu negócio digital a outro nível <span class="titulo-destaque">com um Front-end de qualidade!</span></h1>
-            <p class="conteudo-apresentacao-texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+        <section class="apresentacao-conteudo">
+            <h1 class="apresentacao-conteudo-titulo">Eleve seu negócio digital a outro nível <span class="titulo-destaque">com um Front-end de qualidade!</span></h1>
+            <p class="apresentacao-conteudo-texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="social-links">
-                <h1 class="social-links-titulo">Acesse minhas redes:</h1>
-                <a class="social-links-link" href="https://github.com/">GitHub</a>
-                <a class="social-links-link" href="https://instagram.com/">Instagram</a>
-                <a class="social-links-link" href="https://twitch.com/">Instagram</a>
+                <h2 class="social-links-titulo">Acesse minhas redes:</h2>
+                <a class="social-links-link" href="https://github.com/">
+                    <img src="./assets/github.png" alt="Logo GitHub">
+                    GitHub
+                </a>
+                <a class="social-links-link" href="https://linkedin.com/">
+                    <img src="./assets/linkedin.png" alt="Logo Linkedin">
+                    LinkedIn
+                </a>
+                <a class="social-links-link" href="https://twitch.tv/">
+                    <img src="./assets/twitch.png" alt="Logo Twitch">
+                    Twitch
+                </a>
             </div>
         </section>
-        <img src="imagem-portfolio.png" alt="Foto para portifólio">
+        <img src="./assets/imagem-portfolio.png" alt="Foto para portifólio">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <span class="footer-text">Desenvolvido por Alura</span>
+    </footer>
 </body>
 </html>
